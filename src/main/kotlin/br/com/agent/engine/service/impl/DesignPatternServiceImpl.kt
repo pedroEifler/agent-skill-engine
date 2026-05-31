@@ -10,6 +10,6 @@ class DesignPatternServiceImpl(
     private val designPatternRepository: DesignPatternRepository
 ) : DesignPatternService {
 
-    override fun findAll(): List<DesignPattern> = designPatternRepository.findAll()
+    override fun findAll(): List<DesignPattern> = designPatternRepository.findAllByOrderByLockedAscNameAsc()
 }
 

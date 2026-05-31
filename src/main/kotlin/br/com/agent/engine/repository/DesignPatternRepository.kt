@@ -5,5 +5,6 @@ import org.springframework.data.jpa.repository.JpaRepository
 import org.springframework.stereotype.Repository
 
 @Repository
-interface DesignPatternRepository : JpaRepository<DesignPattern, Long>
-
+interface DesignPatternRepository : JpaRepository<DesignPattern, Long> {
+    fun findAllByOrderByLockedAscNameAsc(): List<DesignPattern>
+}

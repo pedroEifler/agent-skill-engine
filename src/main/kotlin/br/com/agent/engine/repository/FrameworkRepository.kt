@@ -6,6 +6,7 @@ import org.springframework.stereotype.Repository
 
 @Repository
 interface FrameworkRepository : JpaRepository<Framework, Long> {
-    fun findByLanguageId(languageId: Long): List<Framework>
+    fun findAllByOrderByLockedAscNameAsc(): List<Framework>
+    fun findByLanguageIdOrderByLockedAscNameAsc(languageId: Long): List<Framework>
 }
 

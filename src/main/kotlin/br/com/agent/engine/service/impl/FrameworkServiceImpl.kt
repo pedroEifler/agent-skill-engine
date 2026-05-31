@@ -10,9 +10,9 @@ class FrameworkServiceImpl(
     private val frameworkRepository: FrameworkRepository
 ) : FrameworkService {
 
-    override fun findAll(): List<Framework> = frameworkRepository.findAll()
+    override fun findAll(): List<Framework> = frameworkRepository.findAllByOrderByLockedAscNameAsc()
 
     override fun findByLanguageId(languageId: Long): List<Framework> =
-        frameworkRepository.findByLanguageId(languageId)
+        frameworkRepository.findByLanguageIdOrderByLockedAscNameAsc(languageId)
 }
 

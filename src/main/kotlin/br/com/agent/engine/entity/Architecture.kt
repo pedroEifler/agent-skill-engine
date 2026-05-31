@@ -3,7 +3,7 @@ package br.com.agent.engine.entity
 import jakarta.persistence.*
 
 @Entity
-@Table(name = "architecture", schema = "skill_engine")
+@Table(name = "architecture")
 class Architecture(
 
     @Id
@@ -11,13 +11,16 @@ class Architecture(
     val id: Long = 0,
 
     @Column(nullable = false, length = 100)
-    val name: String,
+    val name: String = "",
 
     @Column(nullable = false, length = 255)
-    val description: String,
+    val description: String = "",
 
     @Column(nullable = false)
-    val locked: Boolean = false
+    val locked: Boolean = false,
+
+    @Column(nullable = false, unique = true, length = 50)
+    val slug: String = ""
 )
 
 

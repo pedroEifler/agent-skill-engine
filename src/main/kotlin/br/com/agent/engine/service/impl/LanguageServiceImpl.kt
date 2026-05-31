@@ -11,7 +11,7 @@ class LanguageServiceImpl(
 ) : LanguageService {
 
     override fun findAll(): List<Language> {
-        return languageRepository.findAll()
+        return languageRepository.findAllByOrderByLockedAscNameAsc()
     }
 }
 

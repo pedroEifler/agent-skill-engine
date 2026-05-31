@@ -10,6 +10,6 @@ class ArchitectureServiceImpl(
     private val architectureRepository: ArchitectureRepository
 ) : ArchitectureService {
 
-    override fun findAll(): List<Architecture> = architectureRepository.findAll()
+    override fun findAll(): List<Architecture> = architectureRepository.findAllByOrderByLockedAscNameAsc()
 }
 
