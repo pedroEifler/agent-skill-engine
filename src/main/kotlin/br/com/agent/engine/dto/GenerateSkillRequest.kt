@@ -4,6 +4,7 @@ data class GenerateSkillRequest(
     val languageId: Long,
     val frameworkId: Long,
     val architectureId: Long,
-    val designPatternIds: List<Long>
+    val designPatternIds: List<Long>,
+    val type: String
 )
 

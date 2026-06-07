@@ -14,7 +14,7 @@ class SkillController(
 
     @PostMapping("/generate")
     fun generateSkill(@RequestBody request: GenerateSkillRequest): ResponseEntity<GenerateSkillResponse> {
-        val content = skillGeneratorService.generate(request)
-        return ResponseEntity.ok(GenerateSkillResponse(content = content))
+        val response = skillGeneratorService.generate(request)
+        return ResponseEntity.ok(response)
     }
 }
