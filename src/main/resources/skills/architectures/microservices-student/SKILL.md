@@ -508,8 +508,8 @@ services:
 6. **Dica**: ordem de inicialização dos serviços
 
 Consulte os arquivos de referência:
-- `references/feign.md` — Feign Client avançado, fallback, timeout
-- `references/messaging.md` — RabbitMQ e Kafka com comentários
-- `references/resilience.md` — Circuit Breaker com Resilience4j
-- `references/config.md` — Spring Cloud Config Server
-- `references/tests.md` — Testando microserviços com WireMock
+- `references/architectures/feign.md` — Feign Client avançado, fallback, timeout
+- `references/architectures/messaging.md` — RabbitMQ e Kafka com comentários
+- `references/architectures/resilience.md` — Circuit Breaker com Resilience4j
+- `references/architectures/config.md` — Spring Cloud Config Server
+- `references/architectures/tests.md` — Testando microserviços com WireMock

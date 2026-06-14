@@ -41,7 +41,7 @@ Identify the Spring Boot and Java versions before generating any code.
 | **3.3.x**   | **17**   | **21**      | **Recommended** |
 
 > Spring Boot 3.x requires Java 17+. For Java 8/11 projects, target Spring Boot 2.7.x.
-> Load `references/springboot2.md` for 2.x; `references/springboot3.md` for 3.x.
+> Load `references/frameworks/springboot2.md` for 2.x; `references/frameworks/springboot3.md` for 3.x.
 
 ---
 
@@ -269,7 +269,7 @@ logging:
 6. **Dockerfile** (if greenfield project)
 
 Load the appropriate reference files:
-- Spring Boot 2.x → `references/springboot2.md`
-- Spring Boot 3.x → `references/springboot3.md`
-- Spring Security / JWT → `references/security.md`
-- Testing patterns → `references/tests.md`
+- Spring Boot 2.x → `references/frameworks/springboot2.md`
+- Spring Boot 3.x → `references/frameworks/springboot3.md`
+- Spring Security / JWT → `references/frameworks/security.md`
+- Testing patterns → `references/frameworks/tests.md`

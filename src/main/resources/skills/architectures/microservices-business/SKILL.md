@@ -587,8 +587,8 @@ public class SecurityConfig {}
 6. **Test skeletons**: WireMock for Feign, Testcontainers for Kafka
 
 Load reference files:
-- `references/feign.md` — Advanced Feign patterns, propagation, mTLS
-- `references/messaging.md` — Kafka producer/consumer, exactly-once, DLQ
-- `references/resilience.md` — Circuit breaker, bulkhead, rate limiter
-- `references/security.md` — JWT propagation, mTLS, OAuth2 resource server
-- `references/tests.md` — WireMock, Pact, Testcontainers Kafka
+- `references/architectures/feign.md` — Advanced Feign patterns, propagation, mTLS
+- `references/architectures/messaging.md` — Kafka producer/consumer, exactly-once, DLQ
+- `references/architectures/resilience.md` — Circuit breaker, bulkhead, rate limiter
+- `references/architectures/security.md` — JWT propagation, mTLS, OAuth2 resource server
+- `references/architectures/tests.md` — WireMock, Pact, Testcontainers Kafka

@@ -542,6 +542,6 @@ public OrderTestDataBuilder withItem(...) {}       // optional field: with + Fie
 5. **Test skeletons** covering happy path, defaults, and validation failures
 
 Load reference files:
-- `references/step-builder-advanced.md` — Branching steps, optional step groups
-- `references/lombok-production.md` — @Builder customization, @SuperBuilder, Jackson compat
-- `references/tests.md` — Test data builders, parameterized construction tests
+- `references/design-patterns/step-builder-advanced.md` — Branching steps, optional step groups
+- `references/design-patterns/lombok-production.md` — @Builder customization, @SuperBuilder, Jackson compat
+- `references/design-patterns/tests.md` — Test data builders, parameterized construction tests

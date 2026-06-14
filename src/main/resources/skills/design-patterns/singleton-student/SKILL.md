@@ -385,6 +385,6 @@ public enum ContadorVisitasSafe {
 5. **Dica**: quando NÃO usar Singleton (prefira injeção de dependência!)
 
 Consulte os arquivos de referência:
-- `references/problemas-e-armadilhas.md` — Reflection, serialização e testes quebrados
-- `references/singleton-vs-spring.md` — Quando usar @Service ao invés de Singleton manual
-- `references/testes.md` — Como testar código que usa Singleton (e por que é difícil!)
+- `references/design-patterns/problemas-e-armadilhas.md` — Reflection, serialização e testes quebrados
+- `references/design-patterns/singleton-vs-spring.md` — Quando usar @Service ao invés de Singleton manual
+- `references/design-patterns/testes.md` — Como testar código que usa Singleton (e por que é difícil!)

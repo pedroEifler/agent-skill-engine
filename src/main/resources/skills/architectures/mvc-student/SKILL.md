@@ -440,7 +440,7 @@ server.port=8080
 7. **Dica**: próximos passos (adicionar autenticação, paginação, etc.)
 
 Consulte os arquivos de referência para mais detalhes:
-- `references/thymeleaf.md` — Expressões, layouts, fragmentos
-- `references/flash.md` — Mensagens de sucesso/erro entre redirecionamentos
-- `references/security.md` — Login com Spring Security + Thymeleaf
-- `references/tests.md` — Testando controllers MVC com MockMvc
+- `references/architectures/thymeleaf.md` — Expressões, layouts, fragmentos
+- `references/architectures/flash.md` — Mensagens de sucesso/erro entre redirecionamentos
+- `references/architectures/security.md` — Login com Spring Security + Thymeleaf
+- `references/architectures/tests.md` — Testando controllers MVC com MockMvc

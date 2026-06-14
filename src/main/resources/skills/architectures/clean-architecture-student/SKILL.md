@@ -468,7 +468,7 @@ public class ProdutoJpaEntity {
 4. **Dica**: explique o que aconteceria se misturássemos as camadas
 
 Consulte os arquivos de referência para exemplos completos:
-- `references/domain.md` — Value Objects, Aggregates, Domain Events
-- `references/application.md` — Use Cases complexos, CQRS básico
-- `references/adapters.md` — Adapters Web, Persistence, Messaging
-- `references/tests.md` — Como testar cada camada isoladamente
+- `references/architectures/domain.md` — Value Objects, Aggregates, Domain Events
+- `references/architectures/application.md` — Use Cases complexos, CQRS básico
+- `references/architectures/adapters.md` — Adapters Web, Persistence, Messaging
+- `references/architectures/tests.md` — Como testar cada camada isoladamente

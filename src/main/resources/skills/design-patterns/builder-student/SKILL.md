@@ -439,6 +439,6 @@ var notificacao = NotificacaoEmail.builder()
 5. **Dica**: quando usar construtor simples vs Builder
 
 Consulte os arquivos de referência:
-- `references/lombok-avancado.md` — @Builder com herança, toBuilder(), validações no Lombok
-- `references/builder-gof.md` — Builder GoF original com Director e steps separados
-- `references/testes.md` — Testando classes construídas com Builder
+- `references/design-patterns/lombok-avancado.md` — @Builder com herança, toBuilder(), validações no Lombok
+- `references/design-patterns/builder-gof.md` — Builder GoF original com Director e steps separados
+- `references/design-patterns/testes.md` — Testando classes construídas com Builder

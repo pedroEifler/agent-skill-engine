@@ -200,10 +200,10 @@ public void realizarSaque(double valor) {
 
 Ao gerar código, adapte os recursos conforme a versão. Leia o arquivo de referência correto:
 
-- Java 8  → `references/java8.md`
-- Java 11 → `references/java11.md`
-- Java 17 → `references/java17.md`
-- Java 21 → `references/java21.md`
+- Java 8  → `references/languages/java8.md`
+- Java 11 → `references/languages/java11.md`
+- Java 17 → `references/languages/java17.md`
+- Java 21 → `references/languages/java21.md`
 
 ---
 

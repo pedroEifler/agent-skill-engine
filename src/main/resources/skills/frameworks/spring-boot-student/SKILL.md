@@ -299,7 +299,7 @@ server.port=8080
 5. **Dica de aprendizado**: próximos passos sugeridos
 
 Consulte os arquivos de referência para detalhes por versão:
-- Spring Boot 2.x → `references/springboot2.md`
-- Spring Boot 3.x → `references/springboot3.md`
-- Spring Security → `references/security.md`
-- Testes → `references/tests.md`
+- Spring Boot 2.x → `references/frameworks/springboot2.md`
+- Spring Boot 3.x → `references/frameworks/springboot3.md`
+- Spring Security → `references/frameworks/security.md`
+- Testes → `references/frameworks/tests.md`

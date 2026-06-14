@@ -474,6 +474,6 @@ spring.profiles.active=memoria
 6. **Dica**: como adicionar um terceiro adaptador sem tocar no núcleo
 
 Consulte os arquivos de referência:
-- `references/multiplos-adaptadores.md` — GraphQL, gRPC, Mensageria como entrada
-- `references/testes.md` — Testando o núcleo isoladamente com adapter in-memory
-- `references/configuracao.md` — Gerenciando múltiplos adaptadores com @Profile e @Qualifier
+- `references/architectures/multiplos-adaptadores.md` — GraphQL, gRPC, Mensageria como entrada
+- `references/architectures/testes.md` — Testando o núcleo isoladamente com adapter in-memory
+- `references/architectures/configuracao.md` — Gerenciando múltiplos adaptadores com @Profile e @Qualifier

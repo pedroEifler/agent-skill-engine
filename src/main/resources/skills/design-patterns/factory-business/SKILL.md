@@ -395,6 +395,6 @@ public interface ExportFormatPlugin {}           // noun + Plugin
 5. **Test skeletons** covering each branch and the failure case
 
 Load reference files:
-- `references/spring-integration.md` — Registry factories with Spring DI, conditional beans
-- `references/advanced-patterns.md` — Builder+Factory combination, prototype-based factories
-- `references/tests.md` — Parameterized tests, mutation-resistant factory tests
+- `references/design-patterns/spring-integration.md` — Registry factories with Spring DI, conditional beans
+- `references/design-patterns/advanced-patterns.md` — Builder+Factory combination, prototype-based factories
+- `references/design-patterns/tests.md` — Parameterized tests, mutation-resistant factory tests

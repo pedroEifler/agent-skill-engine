@@ -455,6 +455,6 @@ public static ConnectionPool getInstance() {}   // get + ClassName
 5. **DI alternative** — when Spring or constructor injection is preferable
 
 Load reference files:
-- `references/thread-safety.md` — AtomicReference, StampedLock, concurrent state patterns
-- `references/testing.md` — Concurrency tests, state reset, testability patterns
-- `references/anti-patterns.md` — When not to use Singleton, migration to DI
+- `references/design-patterns/thread-safety.md` — AtomicReference, StampedLock, concurrent state patterns
+- `references/design-patterns/testing.md` — Concurrency tests, state reset, testability patterns
+- `references/design-patterns/anti-patterns.md` — When not to use Singleton, migration to DI

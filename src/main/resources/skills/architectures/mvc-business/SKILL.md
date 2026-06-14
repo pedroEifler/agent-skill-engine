@@ -455,7 +455,7 @@ public class ProductForm {}
 8. **Test skeletons**: `@WebMvcTest` + `@SpringBootTest` stubs
 
 Load reference files:
-- `references/thymeleaf.md` — Advanced Thymeleaf expressions, fragments, i18n
-- `references/security.md` — Spring Security with Thymeleaf, role-based views
-- `references/pagination.md` — Pageable, search filters, sort params
-- `references/tests.md` — MockMvc, `@WebMvcTest`, security test patterns
+- `references/architectures/thymeleaf.md` — Advanced Thymeleaf expressions, fragments, i18n
+- `references/architectures/security.md` — Spring Security with Thymeleaf, role-based views
+- `references/architectures/pagination.md` — Pageable, search filters, sort params
+- `references/architectures/tests.md` — MockMvc, `@WebMvcTest`, security test patterns

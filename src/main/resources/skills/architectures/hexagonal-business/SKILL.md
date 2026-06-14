@@ -547,6 +547,6 @@ public class RedisCacheAdapter {}              // Technology + noun + Adapter
 7. **Test skeletons**: pure core tests, adapter integration tests
 
 Load reference files:
-- `references/multiple-adapters.md` — gRPC, scheduled jobs, polyglot persistence
-- `references/configuration.md` — Profiles, conditional beans, composite adapters
-- `references/tests.md` — Core unit tests, ArchUnit, contract tests for adapters
+- `references/architectures/multiple-adapters.md` — gRPC, scheduled jobs, polyglot persistence
+- `references/architectures/configuration.md` — Profiles, conditional beans, composite adapters
+- `references/architectures/tests.md` — Core unit tests, ArchUnit, contract tests for adapters

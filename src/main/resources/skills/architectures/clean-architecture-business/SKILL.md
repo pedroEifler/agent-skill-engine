@@ -385,7 +385,7 @@ public interface OrderJpaRepository {}          // Spring Data: noun + JpaReposi
 6. **Test skeletons** per layer
 
 Load reference files for additional patterns:
-- `references/domain.md` — Aggregates, Value Objects, Domain Events, Specifications
-- `references/application.md` — CQRS, Saga, complex orchestration
-- `references/adapters.md` — Messaging, REST client, cache adapters
-- `references/tests.md` — Unit, integration, and architecture enforcement tests
+- `references/architectures/domain.md` — Aggregates, Value Objects, Domain Events, Specifications
+- `references/architectures/application.md` — CQRS, Saga, complex orchestration
+- `references/architectures/adapters.md` — Messaging, REST client, cache adapters
+- `references/architectures/tests.md` — Unit, integration, and architecture enforcement tests

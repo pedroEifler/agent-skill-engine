@@ -415,6 +415,6 @@ app.renderizar();
 5. **Dica**: quando NÃO usar Factory (over-engineering em casos simples)
 
 Consulte os arquivos de referência:
-- `references/factory-com-spring.md` — Factory integrado com Spring (Strategy + Factory)
-- `references/static-factory-methods.md` — Métodos de fábrica estáticos (Effective Java)
-- `references/testes.md` — Testando código que usa Factory
+- `references/design-patterns/factory-com-spring.md` — Factory integrado com Spring (Strategy + Factory)
+- `references/design-patterns/static-factory-methods.md` — Métodos de fábrica estáticos (Effective Java)
+- `references/design-patterns/testes.md` — Testando código que usa Factory
