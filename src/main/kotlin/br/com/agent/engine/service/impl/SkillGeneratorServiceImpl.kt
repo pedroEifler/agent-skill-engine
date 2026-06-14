@@ -43,12 +43,12 @@ class SkillGeneratorServiceImpl(
         val content = parts.joinToString("\n\n---\n\n")
 
         val references = mutableListOf<SkillReference>()
-        references += loadReferences("languages/${language.slug}-$type/references")
-        references += loadReferences("frameworks/${framework.slug}-$type/references")
-        references += loadReferences("architectures/${architecture.slug}-$type/references")
-        patterns.forEach { references += loadReferences("design-patterns/${it.slug}-$type/references") }
+        references += loadReferences("languages", "${language.slug}-$type")
+        references += loadReferences("frameworks", "${framework.slug}-$type")
+        references += loadReferences("architectures", "${architecture.slug}-$type")
+        patterns.forEach { references += loadReferences("design-patterns", "${it.slug}-$type") }
 
-        return GenerateSkillResponse(content = content, references = references)
+        return GenerateSkillResponse(content, references)
     }
 
     private fun loadSkillFile(path: String): String {
@@ -59,12 +59,13 @@ class SkillGeneratorServiceImpl(
         return resource.inputStream.bufferedReader().readText()
     }
 
-    private fun loadReferences(path: String): List<SkillReference> {
+    private fun loadReferences(folder: String, path: String): List<SkillReference> {
         val resolver = PathMatchingResourcePatternResolver()
-        val pattern = "classpath:skills/$path/*.md"
+        val pattern = "classpath:skills/$folder/$path/references/*.md"
         return try {
             resolver.getResources(pattern).map { resource ->
                 SkillReference(
+                    folder,
                     fileName = resource.filename ?: "unknown",
                     content = resource.inputStream.bufferedReader().readText()
                 )
