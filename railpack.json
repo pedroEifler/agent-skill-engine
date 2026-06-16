@@ -1,6 +1,6 @@
 {
   "$schema": "https://schema.railpack.com",
   "packages": {
-    "jdk": "20"
+    "java": "20"
   }
 }
